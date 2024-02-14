@@ -22,7 +22,6 @@ const SocialLinks = () => {
         </>
       ),
       href: "https://github.com/petkovpavel45/",
-      style: "rounded-tr-md",
     },
     {
       id: 3,
