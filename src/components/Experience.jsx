@@ -4,10 +4,11 @@ import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
-import nextjs from "../assets/nextjs.png";
-import graphql from "../assets/graphql.png";
+import node from "../assets/node.png";
+import angular from "../assets/angular.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
+import wordpress from "../assets/wordpress.png";
 
 const Experience = () => {
   const techs = [
@@ -15,43 +16,43 @@ const Experience = () => {
       id: 1,
       src: html,
       title: "HTML",
-      style: "shadow-orange-500",
+      style: "shadow-html-orange",
     },
     {
       id: 2,
       src: css,
       title: "CSS",
-      style: "shadow-blue-500",
+      style: "shadow-css-blue",
     },
     {
       id: 3,
       src: javascript,
       title: "JavaScript",
-      style: "shadow-yellow-500",
+      style: "shadow-js-yellow",
     },
     {
       id: 4,
-      src: reactImage,
-      title: "React",
-      style: "shadow-blue-600",
+      src: node,
+      title: "Node JS",
+      style: "shadow-node-green",
     },
     {
       id: 5,
-      src: tailwind,
-      title: "Tailwind",
-      style: "shadow-sky-400",
+      src: angular,
+      title: "Angular",
+      style: "shadow-angular-red",
     },
     {
       id: 6,
-      src: nextjs,
-      title: "Next JS",
-      style: "shadow-white",
+      src: reactImage,
+      title: "React",
+      style: "shadow-react-blue",
     },
     {
       id: 7,
-      src: graphql,
-      title: "GraphQL",
-      style: "shadow-pink-400",
+      src: wordpress,
+      title: "WordPress",
+      style: "shadow-wordpress-blue",
     },
     {
       id: 8,
@@ -59,6 +60,13 @@ const Experience = () => {
       title: "GitHub",
       style: "shadow-gray-400",
     },
+    {
+      id: 9,
+      src: tailwind,
+      title: "Tailwind",
+      style: "shadow-tailwind-blue",
+    },
+
   ];
 
   return (

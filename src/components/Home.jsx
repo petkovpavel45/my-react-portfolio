@@ -15,9 +15,9 @@ const Home = () => {
             I'm a Front End Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-            debitis enim esse? Aspernatur, tempora provident tempore voluptate
-            itaque blanditiis officia!
+            Graduate from SoftUni with a focus on JS web
+            development. My expertise extends to React, Angular, NodeJS, HTML,
+            CSS, and WordPress.
           </p>
 
           <div>
