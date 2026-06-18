@@ -35,10 +35,10 @@ const projects = [
     id: 4,
     title: "ToDo App",
     description: "Clean task manager with filters (All/Active/Done), localStorage persistence, and dark UI.",
-    tech: ["React", "Tailwind CSS"],
+    tech: ["React", "Vite", "CSS"],
     gradient: "from-emerald-900 to-gray-900",
     accent: "text-emerald-400",
-    demo: null,
+    demo: "https://todo-vite-kxxigipi3-vibe-coding4.vercel.app",
     code: "https://github.com/petkovpavel45/ToDo",
   },
 ];
