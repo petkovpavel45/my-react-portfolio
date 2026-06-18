@@ -4,28 +4,46 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"
+      className="w-full bg-gradient-to-b from-gray-800 to-black text-white py-20"
     >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
+      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             About
           </p>
         </div>
-        <p className="text-xl mt-20 mb-10">
-          Hello, I'm Pavel Petkov, a 26-year-old father recently blessed with a
-          baby boy. As a front-end developer, my expertise lies in WordPress,
-          backed by completing the SoftUni JS Web Development path last year.
-          Proficient in React, Angular, HTML, CSS, JavaScript, NodeJS, and
-          Express, I bring a diverse skill set to every project. Beyond coding,
-        </p>
-        <p className="text-xl">
-          I have experience managing a bar and briefly served as a sales
-          representative. Having spent 3 to 4 years in bustling London, I've
-          returned to my roots in Varna, Bulgaria, where I'm excited to
-          contribute to the local tech scene while nurturing my newfound
-          fatherhood.
-        </p>
+
+        <div className="grid md:grid-cols-2 gap-12 mt-8">
+          <div>
+            <p className="text-xl text-gray-300 leading-relaxed mb-6">
+              I'm a front-end developer from Varna, Bulgaria, with a background
+              in React, Angular, and Firebase. I completed the JavaScript Web
+              Development path at SoftUni and have been building production web
+              applications ever since.
+            </p>
+            <p className="text-xl text-gray-300 leading-relaxed">
+              Currently at <span className="text-white font-semibold">Nexern</span>,
+              I ship 5–6 live sites per month — integrating AI-assisted
+              workflows to cut build time in half while maintaining quality and
+              performance across the full stack.
+            </p>
+          </div>
+
+          <div className="flex flex-col gap-4">
+            {[
+              { label: "Location", value: "Varna, Bulgaria" },
+              { label: "Current Role", value: "Front-end Developer @ Nexern" },
+              { label: "Education", value: "SoftUni — JS Web Development" },
+              { label: "Languages", value: "Bulgarian (native), English (fluent)" },
+              { label: "Email", value: "petkovpavel45@gmail.com" },
+            ].map(({ label, value }) => (
+              <div key={label} className="flex gap-3">
+                <span className="text-cyan-400 font-semibold min-w-[130px]">{label}:</span>
+                <span className="text-gray-300">{value}</span>
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
     </div>
   );
